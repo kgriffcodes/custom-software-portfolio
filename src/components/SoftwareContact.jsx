@@ -2,9 +2,11 @@ import React from "react";
 
 export default function SoftwareContact() {
   return (
-    <section className="my-5">
-      <div id="contact" className="container text-center">
-        <h3 className="mb-2">Looking for a website? Get in touch!</h3>
+    <section className="mt-1 mb-5">
+      <div id="contact" className="container text-center mw-75">
+        <h3 className="contact-header mb-2">
+          Looking for a website? Get in touch!
+        </h3>
         <form method="post" action="https://formspree.io/f/myylpbyn">
           <div className="">
             <div className="d-flex justify-content-between">

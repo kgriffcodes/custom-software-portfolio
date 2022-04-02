@@ -3,7 +3,7 @@ import GriffCodesLogo from "../assets/img/horizontal-logo.jpg";
 
 export default function SoftwareNav() {
   return (
-    <nav className="software-nav navbar norwester fixed-top navbar-expand-lg bg-white navbar-light pt-3 pb-2 border-bottom border-secondary">
+    <nav className="software-nav navbar norwester navbar-expand-lg bg-white navbar-light pt-3 pb-2 border-bottom border-secondary">
       <div className="container d-flex justify-content-between">
         <a href="#" className="navbar-brand mw-50">
           <img
