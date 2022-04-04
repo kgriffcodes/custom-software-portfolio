@@ -19,7 +19,7 @@ const workExamplesArr = [
     link: "https://jcampos.netlify.app/",
     projectTitle: "Jesus Campos Creative",
     projectDescription:
-      "A portfolio built from scratch, employing a headless CMS so all future content updates can be completely handled by the client. Built using a combo of React, vanilla JS, and Sanity CMS.",
+      "A portfolio site that employs a headless CMS so all future content updates can be handled by the client. Built using a combo of React, vanilla JS, and Sanity CMS.",
   },
   {
     pic: DinaPic,
@@ -41,53 +41,55 @@ const workExamplesArr = [
 
 export default function Software() {
   return (
-    <div className="software-page griffcodes-blue">
+    <div className="software-page text-primary">
       <SoftwareNav />
       <section className="hero-section text-center text-sm-start">
-        <div className="d-flex flex-column flex-column-reverse flex-md-row align-items-center justify-content-between h-100 d-inline-block">
-          <div className="text-center w-sm-50 d-inline-block py-5">
-            <h1 className="griffcodes-h1 norwester mt-5 mx-5">GriffCodes</h1>
+        <div className="hero-container d-flex flex-column flex-column-reverse flex-md-row align-items-center justify-content-end justify-content-md-between h-100 d-inline-block">
+          <div className="text-center w-sm-50 d-inline-block py-3">
+            <h1 className="griffcodes-h1 norwester mt-3 mx-5">GriffCodes</h1>
             <p className="mw-75 mx-auto">
-              <span className="hi-im-kayla">Hi, I'm Kayla.</span> I am a web
+              <span className="hi-im-kayla">Hi, I'm Kayla.</span> I'm a web
               developer and fullstack Javascript engineer focused on bettering
               people's lives with technology.
             </p>
-            <a href="#work" className="btn btn-outline-secondary btn-lg">
+            <a href="#work" className="btn btn-outline-secondary btn-lg mb-3">
               View My Work
             </a>
           </div>
           <img
             id="hero-img"
-            className="img-fluid w-sm-50"
+            className="d-block img-fluid w-sm-50"
             src={softwareHeadshot}
             alt=""
           />
         </div>
       </section>
       <div id="work">
-        <div className="griffcodes-blue-bg py-5">
-          <div className="container norwester checkout-work text-center">
+        <div className="bg-primary py-7">
+          <div className="container norwester checkout-work text-center text-gcgreen">
             Checkout My Work
           </div>
         </div>
-        {workExamplesArr.map((data, idx) => (
-          <SoftwareWork
-            key={idx}
-            pic={data.pic}
-            alt={data.alt}
-            link={data.link}
-            projectTitle={data.projectTitle}
-            projectDescription={data.projectDescription}
-            extraClasses={(idx + 1) % 2 === 0 ? "flex-lg-row-reverse" : null}
-          />
-        ))}
+        <div className="">
+          {workExamplesArr.map((data, idx) => (
+            <SoftwareWork
+              key={idx}
+              pic={data.pic}
+              alt={data.alt}
+              link={data.link}
+              projectTitle={data.projectTitle}
+              projectDescription={data.projectDescription}
+              extraClasses={(idx + 1) % 2 === 0 ? "flex-lg-row-reverse" : null}
+            />
+          ))}
+        </div>
       </div>
       <section className="text-center pt-3 my-5">
         <a
           id="resume"
           href={Resume}
           download=""
-          className="btn btn-outline-secondary btn-lg"
+          className="btn btn-primary btn-lg"
         >
           Download My Resume
         </a>

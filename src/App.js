@@ -1,6 +1,6 @@
 import SoftwarePage from "./SoftwarePage";
 import bootstrap from "bootstrap";
-import "../src/css/App.css";
+import "../src/css/main.css";
 
 function App() {
   return (
