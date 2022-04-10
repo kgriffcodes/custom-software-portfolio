@@ -5,6 +5,8 @@ export default function SoftwareNav() {
   return (
     <nav className="software-nav navbar norwester navbar-expand-lg bg-white navbar-light pt-3 pb-2 border-bottom border-secondary">
       <div className="container d-flex justify-content-between">
+        {/* TODO: fix below a tag  */}
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         <a href="#" className="navbar-brand mw-50">
           <img
             id="logo-link"

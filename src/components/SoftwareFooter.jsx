@@ -69,6 +69,8 @@ export default function SoftwareFooter() {
         </ul>
         <div className="d-flex">
           <p className="copyright me-3">&copy;2022 GriffCodes, LLC</p>
+          {/* TODO: fix below a tag  */}
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" className="d-flex text-secondary">
             Return to Top
             <ArrowUpSVG />
