@@ -1,4 +1,5 @@
 import SoftwarePage from "./SoftwarePage";
+//import statement below needed to enable bootstrap JS behavior
 import bootstrap from "bootstrap";
 import "../src/css/main.css";
 
