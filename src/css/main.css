@@ -1,7 +1,7 @@
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 767px) {
   .hero-section {
     font-size: 0.6em;
-    height: calc(100vh -1em);
+    height: calc(100vh - 1em);
   }
   .hero-section .griffcodes-h1 {
     margin-top: 1em !important;
@@ -24,6 +24,10 @@
   .navbar-nav {
     padding-left: 0.7em;
   }
+}
+
+.card-text {
+  font-size: 0.65em;
 }
 
 /*!

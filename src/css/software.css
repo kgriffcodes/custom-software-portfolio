@@ -77,10 +77,9 @@
 	border-radius: 0;
 }
 
-/* WORK SECTION */
-
-.checkout-work {
-	font-size: 1.8em;
+/* HEADER BANNER COMPONENT */
+.header-banner-text {
+	font-size: 2em;
 	text-shadow: 3px 3px #021121;
 }
 

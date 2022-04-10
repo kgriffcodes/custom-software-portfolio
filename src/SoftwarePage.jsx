@@ -2,6 +2,8 @@ import React from "react";
 import "./css/software.css";
 //component imports
 import SoftwareNav from "./components/SoftwareNav";
+import CardSection from "./components/CardSection";
+import HeaderBanner from "./components/HeaderBanner";
 import SoftwareWork from "./components/SoftwareWork";
 import SoftwareContact from "./components/SoftwareContact";
 import SoftwareFooter from "./components/SoftwareFooter";
@@ -64,12 +66,9 @@ export default function Software() {
           />
         </div>
       </section>
+      <CardSection />
       <div id="work">
-        <div className="bg-primary py-7">
-          <div className="container norwester checkout-work text-center text-gcgreen">
-            Checkout My Work
-          </div>
-        </div>
+        <HeaderBanner title="Checkout My Work" />
         <div className="">
           {workExamplesArr.map((data, idx) => (
             <SoftwareWork
