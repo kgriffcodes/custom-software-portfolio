@@ -11,6 +11,7 @@ import SoftwareFooter from "./components/SoftwareFooter";
 import softwareHeadshot from "./assets/img/code-entrance.JPG";
 import Resume from "./assets/img/kayla_griffith_resume.pdf";
 import JesusPic from "./assets/img/jesusCamposImg.JPG";
+import MorningCommPic from "./assets/img/morningCommute.jpg";
 import DinaPic from "./assets/img/dinaWalkerImg.png";
 import OhWherePic from "./assets/img/saveMeFromMyself.jpg";
 
@@ -22,6 +23,14 @@ const workExamplesArr = [
     projectTitle: "Jesus Campos Creative",
     projectDescription:
       "A portfolio site that employs a headless CMS so all future content updates can be handled by the client. Built using a combo of React, vanilla JS, and Sanity CMS.",
+  },
+  {
+    pic: MorningCommPic,
+    alt: "Black text that states 'Check Your Morning Commute' on a light yellow background",
+    link: "https://musical-kelpie-6c7256.netlify.app/",
+    projectTitle: "Morning Commute App",
+    projectDescription:
+      "A react app used to check the traffic and weather conditions of your morning commute. App integrates both the google maps and open weather APIs.",
   },
   {
     pic: DinaPic,
