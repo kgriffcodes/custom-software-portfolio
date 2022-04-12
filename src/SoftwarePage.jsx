@@ -43,7 +43,7 @@ const workExamplesArr = [
   {
     pic: OhWherePic,
     alt: "picture of a button that says 'Save me from Myself!'",
-    link: "https://oh-where-to-eat.netlify.app/oh-where-to-eat/",
+    link: "https://oh-where-to-eat.netlify.app/",
     projectTitle: "Oh, where to eat...",
     projectDescription:
       "If you, like me, struggle to decide on a place to eat, Oh, where to eat... is the site for you. Best viewed on Firefox and Chrome.",
