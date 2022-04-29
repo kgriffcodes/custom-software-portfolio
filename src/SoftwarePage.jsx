@@ -59,9 +59,8 @@ export default function Software() {
           <div className="text-center w-sm-50 d-inline-block py-3">
             <h1 className="griffcodes-h1 norwester mt-3 mx-5">GriffCodes</h1>
             <p className="mw-75 mx-auto">
-              <span className="hi-im-kayla">Hi, I'm Kayla.</span> I'm a web
-              developer and fullstack Javascript engineer focused on bettering
-              people's lives with technology.
+              <span className="hi-im-kayla">Hi, I'm Kayla.</span> I'm a software
+              engineer focused on bettering people's lives with technology.
             </p>
             <a href="#work" className="btn btn-outline-secondary btn-lg mb-3">
               View My Work
